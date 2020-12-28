@@ -1,0 +1,16 @@
+DENY_MESSAGE: "&7[&9*&7] &eBlock glitching is forbidden!"
+TYPE:
+  # Prevents hitting entities after cancelled block break
+  ENTITY_FIX_ENABLED: true
+
+  # Prevents using signs after cancelled block break
+  SIGN_FIX_ENABLED: true
+
+  # Prevents using carts after cancelled block break
+  MINECART_FIX_ENABLED: true
+
+  # Prevents going through blocks after being glitched in the ground
+  # This is the one where u break blocks in front and keep going forward through blocks
+  # This one doesn't send any messages to prevent spam
+  # This will NOT fix phase/clip cheats
+  PHASE_FIX_ENABLED: true
